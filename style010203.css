@@ -1,0 +1,50 @@
+﻿.center{
+	transition: 0.5s;
+}
+.center:hover{
+	transform: scale(1.3);
+}
+
+body{
+	background-size:100% ;
+	color: white;
+	text-shadow: black 0 0 2px;
+}
+
+
+p {
+   	animation-duration: 3s;
+	animation-name: asd;
+	text-align: center;
+}
+
+@keyframes asd {
+	from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+    	margin-left: 0%;
+
+    	width: 100%;
+    }
+}
+
+div {
+	animation-duration: 3s;
+	animation-name: aik;
+	text-align: center;
+}
+
+@keyframes aik {
+	from {
+        margin-right: 100%;
+        width: -400%;
+    }
+
+    to{
+    	margin-right: 0%;
+    	width: -100%;
+    }
+}
